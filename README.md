@@ -60,7 +60,7 @@
 - 기간 : 2020.07 ~
 - 소속 : 매쉬업
 - 역할 : Backend
-- 사용기술 : java 8, Spring boot 2, jpa, nginx, aws
+- 사용기술 : java 8, Spring boot 2, jpa, redis, nginx, aws
 - 링크
   - 깃허브 : https://github.com/mash-up-kr/Dionysos-Backend
 
