@@ -18,6 +18,11 @@
 # 경력
 
 ## 회사
+- 와이피랩스
+  - 기간 : 20.10 ~ 현재
+  - 늘 공허함을 갖고 있는 젊은 세대를 위해 따뜻하고 클린한 통화 경험을 제공하고자 노력하는 백엔드 개발자로 재직 중 입니다.
+  - 개발 도구 : django, django rest framework, mysql
+  - 협업 도구 : git, slack, Jira Confluence, Notion
 
 ## 단체
 - 매쉬업
