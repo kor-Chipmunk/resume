@@ -72,13 +72,15 @@
 기타 라이브러리는 Moya, Alamofire, Kingfisher 입니다.  
 제플린으로 디자이너와 협업하고 Swagger 로 백엔드와 협업하고 노션으로 일정과 QA를 관리했습니다.
 
-- 기간 : 2019.12 ~ 2020.05
+- 기간 : 2019.12 ~
 - 소속 : 매쉬업
-- 역할 : iOS
+- 역할 : iOS, Backend
 - 주 업무 : SwiftUI 뷰 개발, 네트워크 레이어 개발
-- 사용기술 : Swift5, SwiftUI, Moya, Alamofire, Kingfisher
+- 사용기술 iOS : Swift5, SwiftUI, Moya, Alamofire, Kingfisher
+- 사용기술 Backend : nestjs
 - 링크
-  - 깃허브 : https://github.com/mash-up-kr/Ahobsu_iOS
+  - iOS 깃허브 : https://github.com/mash-up-kr/Ahobsu_iOS
+  - Backend 깃허브 : https://github.com/Yuni-Q/moti-backend
   - 앱스토어 : https://apps.apple.com/kr/app/moti/id1496912171
   - 홈페이지 : https://his-0203.github.io/
   
