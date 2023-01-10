@@ -20,7 +20,7 @@
 # 경력
 
 ## 회사
-- 와이피랩스
+- 와이피랩스(커넥팅)
   - 기간 : 20.10 ~ 22.12
   - 늘 공허함을 갖고 있는 젊은 세대를 위해 따뜻하고 클린한 통화 경험을 제공하고자 노력하는 커넥팅 서비스를 운영했습니다.
   - 사용 기술 : django, django rest framework, mysql8, nestjs, websocket, typescript, docker, ecs
@@ -33,6 +33,7 @@
     - 신고 자동화 처리 프로세스 개발
     - CX 팀이 쓰는 장고 어드민, VueJS 관리자 웹 유지보수
     - 공유 문화, 회고 문화 기여
+  - 홈페이지 주소 : http://connectingapp.co.kr/
 
 ## 단체
 - 매쉬업
