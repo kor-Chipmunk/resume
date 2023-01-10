@@ -21,23 +21,26 @@
 
 ## 회사
 - 와이피랩스
-  - 기간 : 20.10 ~ 현재
-  - 늘 공허함을 갖고 있는 젊은 세대를 위해 따뜻하고 클린한 통화 경험을 제공하고자 노력하는 백엔드 개발자로 재직 중 입니다.
+  - 기간 : 20.10 ~ 22.12
+  - 늘 공허함을 갖고 있는 젊은 세대를 위해 따뜻하고 클린한 통화 경험을 제공하고자 노력하는 커넥팅 서비스를 운영했습니다.
   - 사용 기술 : django, django rest framework, mysql8, nestjs, websocket, typescript, docker, ecs
   - 협업 도구 : git, slack, Jira Confluence, Notion
   - 경험
+    - 1:1 채팅 장고 서버 API 개발
+    - 그룹 통화 / 보이스룸 통화 API 개발 & 웹소켓 통신 서버 개발
+    - 테스트 코드 커버리지 0% -> 80%
     - 앱/플레이스토어 인앱 결제 / 정기 구독 서버 처리
-    - 그룹 통화 / 보이스룸 통화 담당 시 앱 클라이언트와 웹소켓 통신
-    - 테스트 코드 커버리지 0% -> 7n%
-    - 관리자 전용 서버 개편
     - 신고 자동화 처리 프로세스 개발
+    - CX 팀이 쓰는 장고 어드민, VueJS 관리자 웹 유지보수
+    - 공유 문화, 회고 문화 기여
 
 ## 단체
 - 매쉬업
-  - 기간 : 18.03 ~ 현재
+  - 기간 : 18.03 ~ 22.12
   - 디자이너와 개발자가 함께하는 모바일 앱 개발 IT 동아리입니다.
   - 개발자 / 디자이너분들과의 네트워킹과 사이드 프로젝트를 진행합니다.
   - 블로그 : https://mash-up.tistory.com/
+  - 회고록 : https://itchipmunk.tistory.com/488
 - CUAI
   - 기간 : 2019.03 ~ 2019.12
   - 중앙대학교 빅데이터 동아리입니다. 머신러닝과 딥러닝 세션을 진행합니다. 자체 컨퍼런스를 진행하고 여러 경진 대회에 참가합니다.
@@ -50,7 +53,7 @@
   - 회고록 : https://itchipmunk.tistory.com/91
 
 ## 학교
-- 중앙대학교 : 2016.03 ~ 휴학
+- 중앙대학교 : 2016.03 ~ 재학
   - 주전공 : 전자전기공학부
   - 복수전공 : 컴퓨터공학부
 - 한국디지털미디어고등학교 : 2013.03 ~ 2016.01
@@ -59,6 +62,25 @@
 ## 프로젝트
 
 ## 개인 프로젝트
+
+
+### 함께 만드는 플레이리스트, 뮤즐리
+
+노래 플레이리스트를 사람들과 공유하는 서비스입니다.  
+호스트에서 신청 곡을 받아 노래를 재생합니다.  
+WebSocket 으로 호스트와 통신하여 신청 곡을 전달하고 현재 노래 재생 현황을 확인할 수 있습니다.  
+호스트에게 다양한 리액션을 전달할 수 있습니다.  
+NextJS 프레임워크의 편리함을 경험했습니다.  
+
+- 기간 : 2022.06 ~ 2022.09
+- 소속 : 매쉬업
+- 역할 : Web Frontend
+- 사용기술 : TypeScript, React.js, NextJS, StompJS
+- 링크
+  - 깃허브 : https://github.com/mash-up-kr/muzily-web
+
+![image](https://user-images.githubusercontent.com/16275188/211581593-03d6bb87-31f9-4102-912b-c4bcd249481f.png)
+
 
 ### 나들길 (서비스 종료)
 
@@ -71,6 +93,8 @@ PostgreSQL의 지리 기능 중 열린 직선들을 저장할 수 있는 데이�
 - 소속 : 매쉬업
 - 역할 : Backend
 - 사용기술 : NodeJS, TypeScript, NestJS, TypeORM
+- 링크
+  - 깃허브 : https://github.com/mash-up-kr/HikingClub_Node
 
 ![Onboarding_main](https://user-images.githubusercontent.com/16275188/173311604-ff7095ff-de0a-4bea-ae52-9010d1440aa1.png)
 ![홈 리스트](https://user-images.githubusercontent.com/16275188/173311613-fa2e2d51-81af-42db-ba09-23ab890eddc3.png)
@@ -119,12 +143,12 @@ MySQL에서 제공하는 지리 SQL로 반경 N km 에 위치하는 데이터를
 기타 라이브러리는 Moya, Alamofire, Kingfisher 입니다.  
 제플린으로 디자이너와 협업하고 Swagger 로 백엔드와 협업하고 노션으로 일정과 QA를 관리했습니다.
 
-- 기간 : 2019.12 ~
+- 기간 : 2019.12 ~ 2020.05
 - 소속 : 매쉬업
 - 역할 : iOS, Backend
 - 주 업무 : SwiftUI 뷰 개발, 네트워크 레이어 개발
 - 사용기술 iOS : Swift5, SwiftUI, Moya, Alamofire, Kingfisher
-- 사용기술 Backend : nestjs
+- 사용기술 Backend : NestJS, Typescript
 - 링크
   - iOS 깃허브 : https://github.com/mash-up-kr/Ahobsu_iOS
   - Backend 깃허브 : https://github.com/Yuni-Q/moti-backend
