@@ -3,8 +3,9 @@
 ### 팀원들과 서비스를 만드는 것을 좋아하고, 자유로운 토의를 좋아하고 다양한 기술에 열려있는 개발자입니다.
 
 함께 모여, 서비스의 방향성과 재밌는 아이디어, 유저가 원하는 점들을 이야기하는 걸 좋아합니다.  
-모두가 이해하기 쉬운 코드를 작성하기 위해 소통하는 걸 좋아합니다.  
+모두가 이해하기 쉬운 코드를 작성하고 소통하는 걸 좋아합니다.  
 취미 생활이 있으면 푹 빠져서 주변 지인들을 영업하는 습성이 있습니다.  
+2023년에 스프링 백엔드 개발자로 커리어를 준비하고 있습니다.
 
 - Github: [kor-Chipmunk](https://github.com/kor-Chipmunk/)
 - Blog: [itchipmunk](https://itchipmunk.tistory.com)
@@ -21,7 +22,7 @@
 
 ## 회사
 - 와이피랩스(커넥팅)
-  - 기간 : 20.10 ~ 22.12
+  - 기간 : 20.10 ~ 22.12 (2년 3개월)
   - 늘 공허함을 갖고 있는 젊은 세대를 위해 따뜻하고 클린한 통화 경험을 제공하고자 노력하는 커넥팅 서비스를 운영했습니다.
   - 사용 기술 : django, django rest framework, mysql8, nestjs, websocket, typescript, docker, ecs
   - 협업 도구 : git, slack, Jira Confluence, Notion
