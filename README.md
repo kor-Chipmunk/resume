@@ -20,7 +20,7 @@
 
 - Github: [kor-Chipmunk](https://github.com/kor-Chipmunk/)
 - Blog: [itchipmunk](https://itchipmunk.tistory.com)
-- Kakaotalk: fastsquirrel
+- Kakaotalk: chipmunks
 - Email: rhj4862@gmail.com
 
 ## 목차
@@ -115,6 +115,23 @@
   - pytest, pytest-split, Github Actions
 
 ## 개인 프로젝트
+
+### 음원 스트리밍 플랫폼
+
+스마일게이트 개발캠프에서 1개월간 진행한 서버 3인/웹 1인으로 구성된, Spring MSA 프로젝트입니다.
+
+- 기간 : 2024.01 ~ 2024.02
+- 소속 : 스마일게이트 개발캠프 5ㅣ기
+- 역할
+  - 백엔드 기술 리드. 개발 이슈(일정관리/디버깅) 해결, 외부 커뮤니케이션 지원
+  - 음원 전처리 후 WebSocket 으로 스트리밍 개발, MVC -> WebFlux 구조로 32% 전체 다운로드 시간 개선
+  - 서비스 디스커버리 / 게이트웨이 라우팅 패턴으로 게이트웨이 서버 구축
+  - 멀티 모듈 / 전체 서비스 공통 모듈 구축
+  - 도커 인프라 구축 (15개 서비스와 Kafka 인프라 도커 구축 / 포트 및 환경 변수 정리)
+- 기술 : Spring Boot, JPA, Spring Cloud, Docker
+- 링크
+  - 깃허브 : https://github.com/sgdevcamp2023/sgwannabe
+
 
 ### 함께 만드는 플레이리스트, 뮤즐리 (서비스 종료)
 
