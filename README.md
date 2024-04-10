@@ -20,7 +20,7 @@
 
 - Github: [kor-Chipmunk](https://github.com/kor-Chipmunk/)
 - Blog: [itchipmunk](https://itchipmunk.tistory.com)
-- Kakaotalk: chipmunks
+- Kakaotalk: chipmunks
 - Email: rhj4862@gmail.com
 
 ## 목차
