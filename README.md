@@ -141,11 +141,11 @@
 - 소속 : UMC
 - 역할
   - 백엔드 기술 리드
-    - DB ERD 22개 테이블 설계 (링크)
-    - 팀원을 위한 프로젝트 코드 컨벤션 설정 (링크)
+    - DB ERD 22개 테이블 설계 ([링크](https://itchipmunk.tistory.com/565))
+    - 팀원을 위한 프로젝트 코드 컨벤션 설정 ([링크](https://itchipmunk.tistory.com/576))
   - REST API 25개 엔드포인트 구현 (기여도 60%)
   - AWS 인프라 구축
-    - MFA 기반 IAM 팀원 계정 관리 (링크)
+    - MFA 기반 IAM 팀원 계정 관리 ([링크](https://itchipmunk.tistory.com/550))
     - AWS EC2, RDS, S3, CloudFront, Route53 인프라 구축
     - Github Actions, AWS CodeDeploy 으로 EC2 배포 자동화 구축
 - 기술 : Java, JPA / QueryDSL, JWT
