@@ -98,7 +98,7 @@
   - 발주 시간 75% 감소
 - 역할
   - REST API / Batch / Event / Admin 개발 (총 2인 담당)
-  - 동시 실행으로 인한 DeadLock / HikariCP 커넥션 고갈 문제, 트랜잭션 격리 수준 / Locking 기법으로 해결
+  - 배치 동시 실행으로 인한 DeadLock / HikariCP 커넥션 고갈 문제, 트랜잭션 격리 수준 / Locking 기법으로 해결
   - 장애 전파를 막기 위한 Fault Tolerance 시스템 구축 (모니터링 알람 / Retry 전략 수립)
 - 기술
   - Spring Boot, Spring Batch, Vue.js, Pinia, Apache Kafka, Jenkins
