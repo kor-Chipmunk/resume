@@ -51,8 +51,11 @@
 - 기간 : 20.10 ~ 22.12 (2년 3개월, 병역특례)
 - 소속 : 프로덕트팀
 - 200만 유저 규모의 다국가 소셜통화 앱 서비스 스타트업으로 IMM 인베스트먼트 등으로부터 100억 시리즈B 투자 유치
-- 사용 기술 : django, django rest framework, mysql8, nestjs, websocket, typescript, docker, ecs
-- 협업 도구 : git, slack, Jira Confluence, Notion
+- 사용 기술
+  - Backend : Django, DRF(Django Rest Framework), NestJS, WebSocket, Python, TypeScript
+  - Frontend : Vue.js
+  - Infra : MySQL, Redis, AWS EB, AWS ECS, Docker
+- 협업 도구 : Git, Slack, Jira Confluence, Notion
 - 경험
   - 앱 서비스의 **REST API / WebSocket 서버** 개발 / 배포 / 운영
   - 기존 레거시 확장 비용이 높아, 신규 WebSocket 매칭 서버 **1인 구축**
