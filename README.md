@@ -1,21 +1,22 @@
 # 김선재
 
-### 팀원들과 서비스를 만드는 것을 좋아하고, 자유로운 토의를 좋아하고 다양한 기술에 열려있는 개발자입니다.
-
-- **3년 차** 개발자로 Django, Node.js 기반 스타트업에서 **REST API, 웹소켓 서버 개발**을 담당했습니다.
-  - **생산성과 가독성이 높은 코드**를 작성합니다.
-  - 건설적인 **코드 리뷰와 질문이 편한 환경**을 선호합니다.
-- 2주 주기로 배포하는 **스크럼**에 익숙합니다. **총 6개의 신규 기능**을 출시 했습니다.
-  - 배포 이후 APM 모니터링으로 **장애에 대응**했습니다.
-  - 수백만 Row 수 증가로 발생한 슬로우 쿼리를 인덱싱으로 1.5초 → 0.3초로 **80% 개선**했습니다.
-- **빠르게 학습**합니다.
-  - **2주 안에** 팀이 요구하는 Django, DRF, Redis, ORM 등 역량을 습득했습니다.
-  - Vue.js 어드민 인력이 없을 때 레거시 학습으로 **3일 안에** 컴포넌트를 개발/배포했습니다.
-- **팀에 기여**합니다.
-  - 7분의 CI 시간으로 빠른 배포에 악영향을 끼쳐, Github Actions matrix **병렬처리로 42% 단축**했습니다.
-  - 서버 배포 시 릴리즈 노트 작성을 자동화해 **20분의 시간을 절약**했습니다.
-- Spring 오픈소스 생태계에 매료되어, **Spring 직군 전환을 희망**하고 있습니다.
-  - 24년 1~2월 [팀 프로젝트](https://github.com/sgdevcamp2023/sgwannabe)로 REST API, WebSocket, AOP, 인증 **기술을 익히며 역량을 향상**했습니다.
+> _구버전_
+> ### 팀원들과 서비스를 만드는 것을 좋아하고, 자유로운 토의를 좋아하고 다양한 기술에 열려있는 개발자입니다.
+>
+> - **3년 차** 개발자로 Django, Node.js 기반 스타트업에서 **REST API, 웹소켓 서버 개발**을 담당했습니다.
+>   - **생산성과 가독성이 높은 코드**를 작성합니다.
+>   - 건설적인 **코드 리뷰와 질문이 편한 환경**을 선호합니다.
+> - 2주 주기로 배포하는 **스크럼**에 익숙합니다. **총 6개의 신규 기능**을 출시 했습니다.
+>   - 배포 이후 APM 모니터링으로 **장애에 대응**했습니다.
+>   - 수백만 Row 수 증가로 발생한 슬로우 쿼리를 인덱싱으로 1.5초 → 0.3초로 **80% 개선**했습니다.
+> - **빠르게 학습**합니다.
+>   - **2주 안에** 팀이 요구하는 Django, DRF, Redis, ORM 등 역량을 습득했습니다.
+>   - Vue.js 어드민 인력이 없을 때 레거시 학습으로 **3일 안에** 컴포넌트를 개발/배포했습니다.
+> - **팀에 기여**합니다.
+> - 7분의 CI 시간으로 빠른 배포에 악영향을 끼쳐, Github Actions matrix **병렬처리로 42% 단축**했습니다.
+>   - 서버 배포 시 릴리즈 노트 작성을 자동화해 **20분의 시간을 절약**했습니다.
+> - Spring 오픈소스 생태계에 매료되어, **Spring 직군 전환을 희망**하고 있습니다.
+>   - 24년 1~2월 [팀 프로젝트](https://github.com/sgdevcamp2023/sgwannabe)로 REST API, WebSocket, AOP, 인증 **기술을 익히며 역량을 향상**했습니다.
 
 
 - Github: [kor-Chipmunk](https://github.com/kor-Chipmunk/)
@@ -31,8 +32,24 @@
 # 경력
 
 ## 회사
+
+### [푸드팡](https://foodpang.co/)
+- 기간 : 24.05 ~ 현재
+- 소속 : 개발팀 - 풀필먼트
+- 16,000명의 외식업 사장님께서 사용하는 식자재 새벽 배송 B2B 플랫폼
+- 사용 기술
+  - Backend : Spring Boot, Spring Batch, jOOQ, Java, Kotlin
+  - Frontend : Vue.js, Pinia, Vite
+  - Infra : MariaDB, Apache Kafka, Jenkins, Telegraf, Grafana, Docker, AWS
+- 협업 도구 : Git, Slack, Asana, Notion, Gitea
+- 경험
+  - PMS(구매 관리 시스템) REST API / Batch / Event / Admin : 개발 / 배포 / 운영
+  - Gitea 등 인프라 버전 관리
+
+
 ### [와이피랩스(커넥팅)](http://connectingapp.co.kr/)
 - 기간 : 20.10 ~ 22.12 (2년 3개월, 병역특례)
+- 소속 : 프로덕트팀
 - 200만 유저 규모의 다국가 소셜통화 앱 서비스 스타트업으로 IMM 인베스트먼트 등으로부터 100억 시리즈B 투자 유치
 - 사용 기술 : django, django rest framework, mysql8, nestjs, websocket, typescript, docker, ecs
 - 협업 도구 : git, slack, Jira Confluence, Notion
@@ -45,6 +62,11 @@
 # 기술
 
 ## Java / Spring
+실무 경험 (MariaDB / Apache Kafka)
+- **Batch** : 실시간 예약 배치 시스템 설계 / 개발 / 운영
+  - 분산 비동기 스케쥴러 JobRunr 활용으로 분산 배치 시스템 구축
+  - 동시 실행으로 인한 DeadLock / HikariCP 고갈 현상 수정 : 트랜잭션 격리 수준 / ReentrantLock & Semaphore
+
 **3개**의 팀프로젝트 기술 리드 경험 (Spring Boot / JWT / JPA / Docker)
 - **ORM** : **생산성**을 위해 간단한 쿼리는 JPA, 복잡한 Join / 동적 쿼리는 QueryDSL 채택
 
@@ -58,10 +80,24 @@
 ## Node.js / NestJS
 **1년간 실무** 경험 (WebSocket / Redis)
 - **비동기** : **성능 향상**을 위해, 불필요한 await 제거 / Promise.all() 으로 네트워크 I/O 개선
+- **동시성** : 동시성 큐로 대화방 입장 / 마감 처리
 
 # 프로젝트
 
 ## 경력 프로젝트
+
+### 구매 관리 시스템
+
+- 기간 : 2024.05 ~ 현재
+- 성과
+  - 예약 배치 시스템으로 무인 운영
+  - 발주 시간 75% 감소
+- 역할
+  - REST API / Batch / Event / Admin 개발 (총 2인 담당)
+  - 동시 실행으로 인한 DeadLock / HikariCP 커넥션 고갈 문제, 트랜잭션 격리 수준 / Locking 기법으로 해결
+  - 장애 전파를 막기 위한 Fault Tolerance 시스템 구축 (모니터링 알람 / Retry 전략 수립)
+- 기술
+  - Spring Boot, Spring Batch, Vue.js, Pinia, Apache Kafka, Jenkins
 
 ### 국가간 채팅 기능 개발
 
