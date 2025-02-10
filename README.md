@@ -126,7 +126,7 @@
   - 예약 건 추적을 위한 그라파나 대시보드 구축
   - 야간 배치 모니터링 / 온콜 대응
 - 기술
-  - 서버 : Java, Spring Boot, Spring Batch
+  - 서버 : Java, Spring Boot, Spring Batch, jOOQ
   - 어드민 : Vue.js, Pinia
   - 인프라 : MariaDB, Apache Kafka, Jenkins, Grafana
 
