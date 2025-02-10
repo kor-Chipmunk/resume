@@ -107,10 +107,10 @@
   - 비즈니스 처리를 엄격히 만들기 위해, PG사에서 오는 요청의 모든 값을 값 객체로 만들어 문서대로 검증하는 객체 구조로 처리
   - Kotest 테스트 프레임워크로 170개의 테스트 코드를 작성 / 테스트 코드의 성능을 증가시키기 위해 파일 단위와 Spec 테스트 단위로 병렬 설정 추가
   - `runCatching` / `Result` 으로 성공과 오류를 구분하고, 오류 핸들링을 클라이언트에게 위임
-  - 민감 정보 마스킹 처리 및 로그 적재 / 결제 메트릭 수집 모듈 개발
+  - 민감 정보 마스킹 처리 및 로그 적재 / 프로메테우스 결제 메트릭 수집 모듈 개발
 - 기술
   - 언어 : Kotlin
-  - 라이브러리 : Ktor HttpClient / kotlin-coroutine
+  - 라이브러리 : Ktor HttpClient, kotlin-coroutine, Micrometer
   - 테스트 프레임워크 : Kotest
   - 배포 : Nexus Repository
 
