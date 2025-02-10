@@ -129,7 +129,7 @@
 - 기술
   - 서버 : Java, Spring Boot, Spring Batch, jOOQ
   - 어드민 : Vue.js, Pinia
-  - 인프라 : MariaDB, Apache Kafka, Jenkins, Grafana
+  - 인프라 : MariaDB, Apache Kafka, Jenkins, Grafana, Prometheus
 
 ### 국가간 채팅 기능 개발
 
