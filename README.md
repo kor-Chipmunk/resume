@@ -124,7 +124,7 @@
   - PMS(구매 관리 시스템) REST API / Batch / Event / Admin 개발 (총 2인 담당)
   - 배치 동시 실행으로 인한 DeadLock / HikariCP 커넥션 고갈 문제, 트랜잭션 격리 수준 / Locking 기법으로 해결
   - 장애 전파를 막기 위한 Fault Tolerance 시스템 구축 (모니터링 알람 / Retry 전략 수립)
-  - 예약 건 추적을 위한 그라파나 대시보드 구축
+  - 커넥션풀 메트릭을 포함한 스프링 애플리케이션 대시보드 / 예약 건 추적을 위한 그라파나 대시보드 구축
   - 야간 배치 모니터링 / 온콜 대응
 - 기술
   - 서버 : Java, Spring Boot, Spring Batch, jOOQ
