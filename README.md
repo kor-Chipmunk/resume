@@ -111,6 +111,7 @@
   - 언어 : Kotlin
   - 라이브러리 : Ktor HttpClient / kotlin-coroutine
   - 테스트 프레임워크 : Kotest
+  - 배포 : Nexus Repository
 
 ### 상품 관리 예약 배치 시스템
 
