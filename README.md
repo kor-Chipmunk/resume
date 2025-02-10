@@ -40,11 +40,13 @@
 - 사용 기술
   - Backend : Spring Boot, Spring Batch, jOOQ, Java, Kotlin
   - Frontend : Vue.js, Pinia, Vite
-  - Infra : MariaDB, Apache Kafka, Jenkins, Telegraf, Grafana, Docker, AWS
+  - Infra : MariaDB, Apache Kafka, Jenkins, Telegraf, Prometheus, Loki, Grafana, Docker, AWS
 - 협업 도구 : Git, Slack, Asana, Notion, Gitea
 - 경험
-  - PMS(구매 관리 시스템) REST API / Batch / Event / Admin : 개발 / 배포 / 운영
-  - Gitea 등 인프라 버전 관리
+  - PMS(구매 관리 시스템) REST API / Batch / Event / Admin : 개발 / 배포 / 운영 담당
+  - 코틀린 기반 PG사 결제 연동 SDK 개발
+  - Gitea / Telegraf / Prometheus / Loki / Grafana 등 인프라 관리
+  - 배치 스크립트로 운영 업무 지원 - 보고서, 시트, 알림 등
 
 
 ### [와이피랩스(커넥팅)](http://connectingapp.co.kr/)
@@ -90,18 +92,40 @@
 
 ## 경력 프로젝트
 
-### 구매 관리 시스템
+### PG사 결제 SDK 연동 개발
 
-- 기간 : 2024.05 ~ 현재
+- 기간 : 2024.11 ~ 2024.11 (1개월)
 - 성과
-  - 예약 배치 시스템으로 무인 운영
+  - 기존 PG사 현금흐름 지원 정책 중지에 빠르게 대응
+- 역할
+  - 업무가 몰린 서비스팀 개발 지원 / PG사 결제 연동 라이브러리 개발 (총 1인 담당)
+  - 커머스 시스템을 지원하기 위해 코틀린으로 개발 언어를 확정
+  - Ktor HttpClient 코드를 모방해, 수신 객체 지정 람다 기반 DSL 형식으로 진입 객체 설정을 편리하게 구현
+  - 코루틴 구조로 설계해 I/O 처리 효율을 높이고, 코루틴을 지원하지 않는 시스템을 위해 runBlocking 으로 감싼 XXXSync() API를 지원
+  - 람다 함수가 객체로 변환되지 않아 성능상 이점이 있는 인라인 함수를 적극 사용하고, 객체 변환 없이 필드값으로 대체하는 인라인 클래스로 리팩터링
+  - 비즈니스 처리를 엄격히 만들기 위해, PG사에서 오는 요청의 모든 값을 값 객체로 만들어 문서대로 검증하는 객체 구조로 처리
+  - Kotest 테스트 프레임워크로 170개의 테스트 코드를 작성 / 테스트 코드의 성능을 증가시키기 위해 파일 단위와 Spec 테스트 단위로 병렬 설정 추가
+  - 엄격한 객체와 테스트 코드 작성의 결과로 PG사 문서의 내용이 실제 요청과 일부 다른 점(필드명 오타, 누락된 데이터)이 있어 취합 후 사내에 공유
+- 기술
+  - 언어 : Kotlin
+  - 라이브러리 : Ktor HttpClient / kotlin-coroutine
+  - 테스트 프레임워크 : Kotest
+
+### 상품 관리 예약 배치 시스템
+
+- 기간 : 2024.07 ~ 2024.10 (1개월 개발 / 3개월 유지보수)
+- 성과
+  - 야간 무인 운영으로 인건비 감소
   - 발주 시간 75% 감소
 - 역할
-  - REST API / Batch / Event / Admin 개발 (총 2인 담당)
+  - PMS(구매 관리 시스템) REST API / Batch / Event / Admin 개발 (총 2인 담당)
   - 배치 동시 실행으로 인한 DeadLock / HikariCP 커넥션 고갈 문제, 트랜잭션 격리 수준 / Locking 기법으로 해결
   - 장애 전파를 막기 위한 Fault Tolerance 시스템 구축 (모니터링 알람 / Retry 전략 수립)
+  - 예약 건 추적을 위한 그라파나 대시보드 구축
 - 기술
-  - Spring Boot, Spring Batch, Vue.js, Pinia, Apache Kafka, Jenkins
+  - 서버 : Java, Spring Boot, Spring Batch
+  - 어드민 : Vue.js, Pinia
+  - 인프라 : MariaDB, Apache Kafka, Jenkins, Grafana
 
 ### 국가간 채팅 기능 개발
 
