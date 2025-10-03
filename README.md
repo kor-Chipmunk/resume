@@ -292,7 +292,7 @@ MySQL에서 제공하는 지리 SQL로 반경 N km 에 위치하는 데이터를
 
 ![images](./images/mogakgong1.png)
 
-### MOTI (서비스 중)
+### MOTI (~25.04.18 서비스 종료)
 
 매일 새로운 질문으로 나만의 드림캐처 만들기 서비스입니다. 가장 최근 기술인 SwiftUI를 사용한 프로젝트입니다.  
 기타 라이브러리는 Moya, Alamofire, Kingfisher 입니다.  
